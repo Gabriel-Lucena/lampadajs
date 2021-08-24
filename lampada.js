@@ -1,5 +1,15 @@
 "use strict"
 
+function botoesLigaDesliga(ligarEstado, desligarEstado) {
+
+    const lampada = document.getElementById("lampada")
+    const ligar = document.getElementById("ligar")
+
+    ligar.disabled = ligarEstado
+    desligar.disabled = desligarEstado
+
+
+}
 
 function lampadaQuebrada() {
 
@@ -12,37 +22,71 @@ function lampadaQuebrada() {
 function ligarLampada() {
 
     const lampada = document.getElementById("lampada")
-    const ligar = document.getElementById("ligar")
-    const desligar = document.getElementById("desligar")
+
+    // Substituído pela função botoesLigaDesliga
+    //    ||
+    //    ||
+    //    \/
+    // const ligar = document.getElementById("ligar")
+    // const desligar = document.getElementById("desligar")
 
     if (!lampadaQuebrada()) {
         lampada.src = "img/ligada.jpg"
-        ligar.disabled = true
-        desligar.disabled = false
+        botoesLigaDesliga(true,false)
+
+        // Substituído pela função botoesLigaDesliga
+        //    ||
+        //    ||
+        //    \/
+        // ligar.disabled = true
+        // desligar.disabled = false
     }
 }
 
 function desligarLampada() {
 
     const lampada = document.getElementById("lampada")
-    const ligar = document.getElementById("ligar")
-    const desligar = document.getElementById("desligar")
+
+    // Substituído pela função botoesLigaDesliga
+    //    ||
+    //    ||
+    //    \/
+    // const ligar = document.getElementById("ligar")
+    // const desligar = document.getElementById("desligar")
 
     if (!lampadaQuebrada()) {
         lampada.src = "img/desligada.jpg"
-        ligar.disabled = false
-        desligar.disabled = true
+        botoesLigaDesliga(false,true)
+    
+        // Substituído pela função botoesLigaDesliga
+        //    ||
+        //    ||
+        //    \/
+        // ligar.disabled = false
+        // desligar.disabled = true
     }
 }
 
 function quebrarLampada() {
 
     const lampada = document.getElementById("lampada")
-    const ligar = document.getElementById("ligar")
-    const desligar = document.getElementById("desligar")
+    
+    // Substituído pela função botoesLigaDesliga
+    //    ||
+    //    ||
+    //    \/
+    // const ligar = document.getElementById("ligar")
+    // const desligar = document.getElementById("desligar")
+    
     if (!lampadaQuebrada()) {
-        ligar.disabled = true
-        desligar.disabled = true
+        // Substituído pela função botoesLigaDesliga
+        //    ||
+        //    ||
+        //    \/
+        // ligar.disabled = true
+        // desligar.disabled = true
+
+        botoesLigaDesliga(true,true)
         lampada.src = "img/quebrada.jpg"
     }
 }
