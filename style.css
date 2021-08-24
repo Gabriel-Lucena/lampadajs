@@ -16,7 +16,7 @@ body {
 button {
     width: 100px;
     height: 40px;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 header {
