@@ -6,4 +6,8 @@ O projeto consiste em criar uma lâmpada que tenha três ações: ligar, desliga
 
 O código foi construído pensando em boas práticas, como responsabilidade única e funções puras.
 
-![](img/projetofinal.png)
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/Gabriel-Lucena/lampadajs/master/img/projetofinal.png">
+
+</p>
