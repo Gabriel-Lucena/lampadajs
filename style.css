@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,4 +39,12 @@ main {
     /* justify-content: center; */
     align-items: center;
     padding: top;
+}
+
+.piscarVermelho {
+    background-color: red;
+}
+
+.piscarVerde {
+    background-color: green;
 }

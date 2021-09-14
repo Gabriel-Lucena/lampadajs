@@ -127,11 +127,13 @@ function piscar() {
 
         idInterval = setInterval(trocarImagem, 2)
         piscar.textContent = "Parar"
+        piscar.className = "piscarVermelho"
 
     } else {
 
         clearInterval(idInterval)
         piscar.textContent = "Piscar"
+        piscar.className = "piscarVerde"
 
     }
 
