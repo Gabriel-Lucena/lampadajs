@@ -8,6 +8,6 @@ O código foi construído pensando em boas práticas, como responsabilidade úni
 
 <p align="center">
   <a href="https://gabriel-lucena.github.io/lampadajs/">
-    <img src="https://raw.githubusercontent.com/Gabriel-Lucena/lampadajs/master/img/projetofinal.png">
+    <img src="https://raw.githubusercontent.com/Gabriel-Lucena/lampadajs/master/img/imagemAtualizada.png">
   </a>
 </p>
